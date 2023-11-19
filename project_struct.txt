@@ -1,0 +1,28 @@
+recipe-app/
+│
+├── backend/              # All backend-related files
+│   ├── app/              # Flask application package
+│   │   ├── __init__.py   # Initializes Flask app
+│   │   ├── models.py     # Database models
+│   │   ├── routes.py     # Flask routes
+│   │   └── api/          # API integration modules
+│   │       └── spoonacular.py  # Spoonacular API interactions
+│   ├── tests/            # Backend unit and integration tests
+│   ├── requirements.txt  # Python dependencies
+│   └── config.py         # Configuration settings for Flask app
+│
+├── frontend/             # All frontend-related files
+│   ├── public/           # Static files
+│   │   └── index.html    # Entry point HTML file
+│   ├── src/              # React source files
+│   │   ├── components/   # React components
+│   │   ├── App.js        # Main React application component
+│   │   ├── index.js      # Root JavaScript file
+│   │   └── styles/       # CSS or styling related files
+│   ├── package.json      # Node.js dependencies
+│   └── README.md         # Documentation for frontend
+│
+├── docker-compose.yml    # Docker compose file (if using Docker)
+├── .env                  # Environment variables
+├── .gitignore            # Specifies intentionally untracked files to ignore
+└── README.md
