@@ -1,3 +1,6 @@
+
+this is what i have in mind will definitely change along the way
+
 recipe-app/
 │
 ├── backend/              # All backend-related files

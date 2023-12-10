@@ -5,6 +5,8 @@ load_dotenv()
 
 # class Config():
 SPOON_API_KEY = environ.get('SPOON_API_KEY')
+EDAM_API_KEY = environ.get('EDAM_API_KEY')
+EDAM_API_ID = environ.get('EDAM_API_ID')
     
 # Add other configuration variables as needed
 
